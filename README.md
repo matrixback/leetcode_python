@@ -1,1 +1,3 @@
-#2 leetcode ˢ��
+#2 leetcode python
+
+用 python 刷 leetcode 的一些题
