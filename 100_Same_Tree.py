@@ -14,9 +14,10 @@ class Solution(object):
         :type q: TreeNode
         :rtype: bool
         """
-        if p==None and q==None:
+        if p == None and q == None:
             return True
-        elif p!=None and q!= None:
+        elif p != None and q != None:
             return p.val == q.val and self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
+        # 此处即(p != None and q == None) or (p == None and q != None)，这种j写法比较简洁 
         else:
             return False
