@@ -11,7 +11,7 @@ class Solution:
         
         child_depth = max(self.TreeDepth(pRoot.left), self.TreeDepth(pRoot.right))
         return child_depth + 1
-
+test it
 这道题用递归做的话比较简单，注意递归时，怎么抽象。
 一般二叉树的题目将每个节点看做一个抽象单元。
 
